@@ -1,3 +1,5 @@
+
+
 #ifndef EMPREGADO_H
 #define EMPREGADO_H
 
@@ -7,6 +9,7 @@
 class Empregado {
 	
   public:
+    int cleber;
     double salarioHora;  
     double quotaMensalVendas;  
 
