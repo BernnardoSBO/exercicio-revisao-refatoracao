@@ -9,7 +9,6 @@
 class Empregado {
 	
   public:
-    int cleber;
     double salarioHora;  
     double quotaMensalVendas;  
 
