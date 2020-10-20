@@ -5,26 +5,15 @@
 
 #include <iostream>
 #include <string>
+#define JORNADAPADRAO 8
 
 class Empregado {
 	
   public:
-    double salarioHora;  
-    double quotaMensalVendas;  
-
-
-    double pagamentoMes(double horasTrabalhadas) {
- 
-      double t = horasTrabalhadas;
-	  
-	  //Cálculo de hora extra (+50% se horasTrabalhadas > 8)
-      if (horasTrabalhadas > 8) {
-        double x = horasTrabalhadas - 8;
-        t += x / 2;
-      }
-	  return t * salarioHora;
-    }
-	
+    double salarioHora;
+    std::string nome;
+    
+    double pagamentoMes(double horasTrabalhadas);
 };
 
 #endif
